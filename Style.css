@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.box {
+    height: 50px;
+    width: 100px;
+    background-color: cadetblue;
+    border: 1px solid red;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.wonShowp {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+
+        margin-top: 10px;
+        padding: 2px;
+    }
+
+    .box {
+        height: 50px;
+        width: 80px;
+
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .wonShow {
+        margin-top: 0px;
+    }
+
+}
