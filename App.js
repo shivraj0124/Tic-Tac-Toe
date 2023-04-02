@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     let wonShowp = document.querySelector('.wonShowp');
     const resetBtn = document.querySelector('.resetBtn');
-    var a = 0;
+    let a = 0;
     const X_PLYR = 'X'
     const O_PLYR = 'O'
     let id;
@@ -40,6 +40,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 WinFlag = 1;
             }
         }
+
     }
 
 
@@ -67,7 +68,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     idArr[id] = currentElement;
                     if (a >= 3) {
                         checkWin(id, currentElement);
-                         if (a == 9) {
+                        if (a === 9 && WinFalg ===0) {
                 wonShowp.innerHTML = 'Game Drawn!!';
             }
                     }
@@ -90,6 +91,6 @@ window.addEventListener('DOMContentLoaded', () => {
         WinFlag = 0;
         idArr = [];
         wonShowp.innerHTML = ''
-        a = 1;
+        a = 0;
     }
 });
