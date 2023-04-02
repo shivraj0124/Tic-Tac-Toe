@@ -49,7 +49,7 @@ window.addEventListener('DOMContentLoaded', () => {
         item.addEventListener('click', (e) => {
             if ((e.target.innerHTML != X_PLYR && e.target.innerHTML != O_PLYR) && WinFlag == 0) {
 
-
+                a=a+1!
                 if (a % 2 != 0) {
                     e.target.innerHTML = X_PLYR;
                     currentElement = X_PLYR;
