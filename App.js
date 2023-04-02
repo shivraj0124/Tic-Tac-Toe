@@ -29,13 +29,13 @@ window.addEventListener('DOMContentLoaded', () => {
         for (let i = 0; i < arr.length; i++) {
 
             const newArr = arr[i];
-            const a = idArr[newArr[0]];
+            const a2 = idArr[newArr[0]];
             const b = idArr[newArr[1]];
             const c = idArr[newArr[2]];
             if (a == 7) {
                 wonShowp.innerHTML = 'Game Drawn!!';
             }
-            if ((currentElement == a) && (a == b) && (a == c) && (a != '')) {
+            if ((currentElement == a2) && (a2 == b) && (a2 == c) && (a2 != '')) {
                 console.log(currentElement + "Won!!");
                 wonShowp.innerHTML = currentElement + ' Won!!!!';
                 WinFlag = 1;
