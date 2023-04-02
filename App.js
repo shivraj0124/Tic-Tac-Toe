@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', () => {
             const a = idArr[newArr[0]];
             const b = idArr[newArr[1]];
             const c = idArr[newArr[2]];
-            if (a == 9) {
+            if (a == 7) {
                 wonShowp.innerHTML = 'Game Drawn!!';
             }
             if ((currentElement == a) && (a == b) && (a == c) && (a != '')) {
