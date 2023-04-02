@@ -24,6 +24,9 @@ window.addEventListener('DOMContentLoaded', () => {
             [0, 4, 8],
             [2, 4, 6]
         ]
+        if (a == 7) {
+                wonShowp.innerHTML = 'Game Drawn!!';
+            }
         console.log('Array length ' + idArr.length);
         console.log(idArr);
         for (let i = 0; i < arr.length; i++) {
@@ -32,9 +35,7 @@ window.addEventListener('DOMContentLoaded', () => {
             const a2 = idArr[newArr[0]];
             const b = idArr[newArr[1]];
             const c = idArr[newArr[2]];
-            if (a == 7) {
-                wonShowp.innerHTML = 'Game Drawn!!';
-            }
+            
             if ((currentElement == a2) && (a2 == b) && (a2 == c) && (a2 != '')) {
                 console.log(currentElement + "Won!!");
                 wonShowp.innerHTML = currentElement + ' Won!!!!';
