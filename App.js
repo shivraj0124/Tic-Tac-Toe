@@ -24,9 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
             [0, 4, 8],
             [2, 4, 6]
         ]
-        if (a == 9) {
-                wonShowp.innerHTML = 'Game Drawn!!';
-            }
+        
         console.log('Array length ' + idArr.length);
         console.log(idArr);
         for (let i = 0; i < arr.length; i++) {
@@ -69,6 +67,9 @@ window.addEventListener('DOMContentLoaded', () => {
                     idArr[id] = currentElement;
                     if (a >= 3) {
                         checkWin(id, currentElement);
+                         if (a == 9) {
+                wonShowp.innerHTML = 'Game Drawn!!';
+            }
                     }
                     
                 }
