@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
             [0, 4, 8],
             [2, 4, 6]
         ]
-        if (a == 7) {
+        if (a == 9) {
                 wonShowp.innerHTML = 'Game Drawn!!';
             }
         console.log('Array length ' + idArr.length);
