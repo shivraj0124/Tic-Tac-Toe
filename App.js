@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     let wonShowp = document.querySelector('.wonShowp');
     const resetBtn = document.querySelector('.resetBtn');
-    var a = 1;
+    var a = 0;
     const X_PLYR = 'X'
     const O_PLYR = 'O'
     let id;
