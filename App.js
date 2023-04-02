@@ -59,7 +59,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     if (a >= 3) {
                         checkWin(id, currentElement);
                     }
-                    a = a + 1;
+                    
 
                 } else {
                     e.target.innerHTML = O_PLYR;
@@ -69,7 +69,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     if (a >= 3) {
                         checkWin(id, currentElement);
                     }
-                    a = a + 1;
+                    
                 }
             }
         })
