@@ -39,6 +39,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 wonShowp.innerHTML = currentElement + ' Won!!!!';
                 WinFlag = 1;
             }
+             if (a === 9 && WinFalg ===0) {
+                wonShowp.innerHTML = 'Game Drawn!!';
+            }
         }
 
     }
@@ -68,9 +71,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     idArr[id] = currentElement;
                     if (a >= 3) {
                         checkWin(id, currentElement);
-                        if (a === 9 && WinFalg ===0) {
-                wonShowp.innerHTML = 'Game Drawn!!';
-            }
+                       
                     }
                     
                 }
